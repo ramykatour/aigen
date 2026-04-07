@@ -1,6 +1,6 @@
 {
   "name": "aigen-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A modern CLI tool to scaffold high-performance AI chatbot apps",
   "author": "ramykatour <ramymouner@hotmail.com>",
   "license": "MIT",
