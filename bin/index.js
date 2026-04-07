@@ -36,9 +36,9 @@ program
           name: 'provider',
           message: 'Select your AI Provider:',
           choices: [
-            { name: '🚀 Groq (fastest, recommended)', value: 'groq' },
-            { name: '🤗 HuggingFace', value: 'huggingface' },
-            { name: '⚡ TogetherAI', value: 'togetherai' }
+            { name: 'Groq (fastest, recommended)', value: 'groq' },
+            { name: 'HuggingFace', value: 'huggingface' },
+            { name: 'TogetherAI', value: 'togetherai' }
           ],
           default: 'groq'
         },
@@ -47,8 +47,8 @@ program
           name: 'framework',
           message: 'Select Framework:',
           choices: [
-            { name: '⚛️  Next.js (App Router) - Production Ready', value: 'nextjs' },
-            { name: '🎯 Vanilla - Lightweight', value: 'vanilla' }
+            { name: 'Next.js (App Router) - Production Ready', value: 'nextjs' },
+            { name: 'Vanilla - Lightweight', value: 'vanilla' }
           ],
           default: 'nextjs'
         }
