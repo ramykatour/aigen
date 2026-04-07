@@ -1,0 +1,23 @@
+{
+  "name": "ai-chat-app",
+  "version": "1.0.0",
+  "description": "A modern AI chatbot built with vanilla JavaScript",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js",
+    "static": "npx serve . -p 3000"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  },
+  "keywords": [
+    "ai",
+    "chatbot",
+    "vanilla",
+    "javascript"
+  ],
+  "author": "",
+  "license": "MIT"
+}

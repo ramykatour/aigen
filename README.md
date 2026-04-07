@@ -46,6 +46,8 @@ npx aigen create my-chat-app
 ```
 ? Select your AI Provider: 🚀 Groq (fastest, recommended)
 ? Select Framework: ⚛️  Next.js (App Router) - Production Ready
+                 OR
+                 🎯 Vanilla - Lightweight (Zero framework dependencies)
 ```
 
 3. Navigate to your project:
@@ -203,10 +205,40 @@ aigen/
 │   └── create-project.js     # Project creation logic
 ├── templates/
 │   ├── nextjs-template/      # Next.js template
-│   └── vanilla-template/     # Vanilla template (coming soon)
+│   └── vanilla-template/     # Vanilla JS template
 ├── package.json
 └── README.md
 ```
+
+## 🎯 Framework Options
+
+### Next.js Template ⚛️
+
+Best for production applications with:
+- Full-featured framework with App Router
+- Server-side rendering
+- Edge runtime support
+- TypeScript
+- Tailwind CSS
+- React Server Components
+
+### Vanilla Template 🎯
+
+Best for lightweight projects with:
+- Zero framework dependencies
+- Pure HTML, CSS, JavaScript
+- Minimal bundle size (~8KB)
+- Instant page load
+- Easy to understand and modify
+- Built-in Express server for API proxy
+
+**Advantages:**
+- ✅ No build step required
+- ✅ Works in any browser
+- ✅ Easy to host anywhere
+- ✅ Simple to debug
+- ✅ Fastest performance
+- ✅ Perfect for learning
 
 ## 🚀 Publishing to npm
 
@@ -271,6 +303,24 @@ npx aigen create my-app
 # Select: Next.js
 ```
 
+### Create with Vanilla (Lightweight)
+
+```bash
+npx aigen create my-app
+# Select: Groq
+# Select: Vanilla
+```
+
+Then run:
+
+```bash
+cd my-app
+npm install
+npm run dev
+```
+
+The app will be available at http://localhost:3001
+
 ### Force Overwrite
 
 ```bash
@@ -279,7 +329,7 @@ npx aigen create my-app --force
 
 ## 🌟 Roadmap
 
-- [ ] Vanilla JS template
+- [x] Vanilla JS template ✅
 - [ ] More AI providers (OpenAI, Anthropic)
 - [ ] Custom template support
 - [ ] Plugin system
