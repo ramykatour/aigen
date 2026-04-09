@@ -1,6 +1,6 @@
-# aigen Setup Guide
+# aigenx Setup Guide
 
-Complete guide to setting up, testing, and publishing the aigen CLI tool.
+Complete guide to setting up, testing, and publishing the aigenx CLI tool.
 
 ## 📋 Prerequisites
 
@@ -13,7 +13,7 @@ Complete guide to setting up, testing, and publishing the aigen CLI tool.
 ### 1. Clone and Navigate
 
 ```bash
-cd /home/z/aigen
+cd /home/z/aigenx
 ```
 
 ### 2. Install Dependencies
@@ -41,7 +41,7 @@ npm link
 2. Test the CLI:
 
 ```bash
-aigen create test-chat-app
+aigenx create test-chat-app
 ```
 
 3. Follow the interactive prompts:
@@ -120,7 +120,7 @@ Enter your npm username, password, and email when prompted.
 Check if the package name is available:
 
 ```bash
-npm view aigen
+npm view aigenx
 ```
 
 If it returns "404 Not Found", the name is available.
@@ -131,7 +131,7 @@ Edit `package.json` and update the version:
 
 ```json
 {
-  "name": "aigen",
+  "name": "aigenx",
   "version": "1.0.0",
   ...
 }
@@ -164,31 +164,31 @@ npm publish --access private
 Check if your package is published:
 
 ```bash
-npm view aigen
+npm view aigenx
 ```
 
-Or visit: https://www.npmjs.com/package/aigen
+Or visit: https://www.npmjs.com/package/aigenx
 
 ## 📦 Using the Published Package
 
 ### Using npx (No Installation Required)
 
 ```bash
-npx aigen create my-app
+npx aigenx create my-app
 ```
 
 ### Global Installation
 
 ```bash
-npm install -g aigen
-aigen create my-app
+npm install -g aigenx
+aigenx create my-app
 ```
 
 ### Local Installation
 
 ```bash
-npm install aigen
-npx aigen create my-app
+npm install aigenx
+npx aigenx create my-app
 ```
 
 ## 🎯 Testing Different Scenarios
@@ -196,7 +196,7 @@ npx aigen create my-app
 ### Test 1: Groq with Next.js
 
 ```bash
-aigen create groq-test
+aigenx create groq-test
 cd groq-test
 # Set GROQ_API_KEY in .env
 npm install
@@ -206,7 +206,7 @@ npm run dev
 ### Test 2: HuggingFace with Next.js
 
 ```bash
-aigen create hf-test
+aigenx create hf-test
 cd hf-test
 # Set HUGGINGFACE_API_KEY in .env
 npm install
@@ -216,7 +216,7 @@ npm run dev
 ### Test 3: TogetherAI with Next.js
 
 ```bash
-aigen create together-test
+aigenx create together-test
 cd together-test
 # Set TOGETHERAI_API_KEY in .env
 npm install
@@ -226,7 +226,7 @@ npm run dev
 ### Test 4: Force Overwrite
 
 ```bash
-aigen create existing-app --force
+aigenx create existing-app --force
 ```
 
 ## 🐛 Troubleshooting
@@ -245,10 +245,10 @@ npm install
 
 ### Issue: Cannot Find Module
 
-Make sure you're in the aigen directory:
+Make sure you're in the aigenx directory:
 
 ```bash
-cd /home/z/aigen
+cd /home/z/aigenx
 npm install
 npm link
 ```
@@ -259,7 +259,7 @@ Change the name in `package.json`:
 
 ```json
 {
-  "name": "@username/aigen",
+  "name": "@username/aigenx",
   ...
 }
 ```
@@ -384,7 +384,7 @@ If you encounter issues:
 
 1. Check this guide first
 2. Review the README.md
-3. Open an issue on GitHub: https://github.com/ramykatour/aigen/issues
+3. Open an issue on GitHub: https://github.com/ramykatour/aigenx/issues
 4. Email: ramymouner@hotmail.com
 
 ---

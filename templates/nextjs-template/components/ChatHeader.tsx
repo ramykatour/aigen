@@ -25,7 +25,7 @@ export function ChatHeader({ onClear }: ChatHeaderProps) {
           </div>
           <div>
             <h1 className="text-xl font-semibold text-white">AI Chat</h1>
-            <p className="text-xs text-gray-400">Powered by aigen</p>
+            <p className="text-xs text-gray-400">Powered by AIgenX</p>
           </div>
         </motion.div>
 

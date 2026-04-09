@@ -1,15 +1,15 @@
-# aigen - AI Chatbot Generator CLI
+# aigenx - AI Chatbot Generator CLI
 
 ## 📦 Project Overview
 
-**aigen** is a production-ready CLI tool that scaffolds high-performance AI chatbot applications with modern UI, streaming responses, and support for multiple AI providers.
+**aigenx** is a production-ready CLI tool that scaffolds high-performance AI chatbot applications with modern UI, streaming responses, and support for multiple AI providers.
 
 ### 🎯 Project Identity
 
-- **Name:** aigen
+- **Name:** aigenx
 - **Author:** ramykatour
 - **Email:** ramymouner@hotmail.com
-- **GitHub:** https://github.com/ramykatour/aigen
+- **GitHub:** https://github.com/ramykatour/aigenx
 - **License:** MIT
 - **Version:** 1.0.0
 
@@ -50,7 +50,7 @@
 ## 📁 Complete Project Structure
 
 ```
-/home/z/aigen/
+/home/z/aigenx/
 ├── bin/
 │   └── index.js                    # CLI entry point with Commander.js
 ├── lib/
@@ -95,20 +95,20 @@
 ### 1. Install Dependencies (if developing)
 
 ```bash
-cd /home/z/aigen
+cd /home/z/aigenx
 npm install
 ```
 
 ### 2. Test CLI Locally
 
 ```bash
-node /home/z/aigen/bin/index.js create my-chat-app
+node /home/z/aigenx/bin/index.js create my-chat-app
 ```
 
 ### 3. Follow Interactive Prompts
 
 ```
-✨ Welcome to aigen!
+✨ Welcome to aigenx!
 
 Building modern AI chatbot apps with ease.
 
@@ -290,7 +290,7 @@ npm login
 ### Step 2: Verify Package Name
 
 ```bash
-npm view aigen
+npm view aigenx
 ```
 
 ### Step 3: Publish
@@ -302,7 +302,7 @@ npm publish --access public
 ### Step 4: Use Published Package
 
 ```bash
-npx aigen create my-app
+npx aigenx create my-app
 ```
 
 ---
@@ -312,7 +312,7 @@ npx aigen create my-app
 ### Create with Groq
 
 ```bash
-npx aigen create my-groq-app
+npx aigenx create my-groq-app
 # Select: Groq
 # Select: Next.js
 ```
@@ -320,7 +320,7 @@ npx aigen create my-groq-app
 ### Create with HuggingFace
 
 ```bash
-npx aigen create my-hf-app
+npx aigenx create my-hf-app
 # Select: HuggingFace
 # Select: Next.js
 ```
@@ -328,7 +328,7 @@ npx aigen create my-hf-app
 ### Force Overwrite
 
 ```bash
-npx aigen create existing-app --force
+npx aigenx create existing-app --force
 ```
 
 ---
@@ -410,9 +410,9 @@ SYSTEM_PROMPT=You are a helpful AI assistant.
 
 ## 🤝 Support
 
-- **GitHub:** https://github.com/ramykatour/aigen
+- **GitHub:** https://github.com/ramykatour/aigenx
 - **Email:** ramymouner@hotmail.com
-- **Issues:** https://github.com/ramykatour/aigen/issues
+- **Issues:** https://github.com/ramykatour/aigenx/issues
 
 ---
 
@@ -424,7 +424,7 @@ MIT License - Free to use, modify, and distribute
 
 ## 🎉 Conclusion
 
-**aigen** is a complete, production-ready CLI tool that generates high-performance AI chatbot applications. It includes:
+**aigenx** is a complete, production-ready CLI tool that generates high-performance AI chatbot applications. It includes:
 
 - ✅ Fully functional CLI with interactive prompts
 - ✅ Complete Next.js 15 template with App Router

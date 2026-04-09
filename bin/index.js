@@ -16,7 +16,7 @@ const __dirname = path.dirname(__filename);
 const program = new Command();
 
 program
-  .name('aigen')
+  .name('aigenx')
   .description('A modern CLI tool to scaffold high-performance AI chatbot apps')
   .version('1.0.0');
 
@@ -26,7 +26,7 @@ program
   .option('-f, --force', 'Force overwrite existing directory')
   .action(async (appName, options) => {
     try {
-      console.log(chalk.cyan.bold('\n✨ Welcome to aigen!\n'));
+      console.log(chalk.cyan.bold('\n✨ Welcome to aigenx!\n'));
       console.log(chalk.gray('Building modern AI chatbot apps with ease.\n'));
 
       // Interactive prompts

@@ -1,10 +1,10 @@
-# aigen 🚀
+# aigenx 🚀
 
 A modern CLI tool to scaffold high-performance AI chatbot apps.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Node Version](https://img.shields.io/node/v/aigen.svg)](https://nodejs.org/)
-[![Build](https://img.shields.io/badge/build-passing-brightgreen)](https://github.com/ramykatour/aigen)
+[![Node Version](https://img.shields.io/node/v/aigenx.svg)](https://nodejs.org/)
+[![Build](https://img.shields.io/badge/build-passing-brightgreen)](https://github.com/ramykatour/aigenx)
 
 ## ✨ Features
 
@@ -23,14 +23,14 @@ A modern CLI tool to scaffold high-performance AI chatbot apps.
 ### Using npx (Recommended)
 
 ```bash
-npx aigen create my-app
+npx aigenx create my-app
 ```
 
 ### Global Installation
 
 ```bash
-npm install -g aigen
-aigen create my-app
+npm install -g aigenx
+aigenx create my-app
 ```
 
 ## 🚀 Quick Start
@@ -38,7 +38,7 @@ aigen create my-app
 1. Run the create command:
 
 ```bash
-npx aigen create my-chat-app
+npx aigenx create my-chat-app
 ```
 
 2. Follow the interactive prompts:
@@ -173,8 +173,8 @@ my-chat-app/
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/ramykatour/aigen.git
-cd aigen
+git clone https://github.com/ramykatour/aigenx.git
+cd aigenx
 ```
 
 2. Install dependencies:
@@ -192,13 +192,13 @@ npm link
 4. Test locally:
 
 ```bash
-aigen create test-app
+aigenx create test-app
 ```
 
 ### Project Structure
 
 ```
-aigen/
+aigenx/
 ├── bin/
 │   └── index.js              # CLI entry point
 ├── lib/
@@ -290,7 +290,7 @@ You can easily customize:
 ### Create with Groq
 
 ```bash
-npx aigen create my-app
+npx aigenx create my-app
 # Select: Groq
 # Select: Next.js
 ```
@@ -298,7 +298,7 @@ npx aigen create my-app
 ### Create with HuggingFace
 
 ```bash
-npx aigen create my-app
+npx aigenx create my-app
 # Select: HuggingFace
 # Select: Next.js
 ```
@@ -306,7 +306,7 @@ npx aigen create my-app
 ### Create with Vanilla (Lightweight)
 
 ```bash
-npx aigen create my-app
+npx aigenx create my-app
 # Select: Groq
 # Select: Vanilla
 ```
@@ -324,7 +324,7 @@ The app will be available at http://localhost:3001
 ### Force Overwrite
 
 ```bash
-npx aigen create my-app --force
+npx aigenx create my-app --force
 ```
 
 ## 🌟 Roadmap
@@ -353,9 +353,9 @@ MIT © [ramykatour](https://github.com/ramykatour)
 
 ## 📞 Support
 
-- GitHub: https://github.com/ramykatour/aigen
+- GitHub: https://github.com/ramykatour/aigenx
 - Email: ramymouner@hotmail.com
-- Issues: https://github.com/ramykatour/aigen/issues
+- Issues: https://github.com/ramykatour/aigenx/issues
 
 ---
 

@@ -1,21 +1,21 @@
-# aigen Quick Reference
+# aigenx Quick Reference
 
 ## 🚀 Essential Commands
 
 ### Create a New App
 ```bash
-npx aigen create my-app
+npx aigenx create my-app
 ```
 
 ### With Specific Provider (manual prompt selection)
 ```bash
-npx aigen create my-app
+npx aigenx create my-app
 # Then select: Groq, HuggingFace, or TogetherAI
 ```
 
 ### Force Overwrite Existing Directory
 ```bash
-npx aigen create my-app --force
+npx aigenx create my-app --force
 ```
 
 ---
@@ -134,7 +134,7 @@ npm install
 
 ### First Time
 ```bash
-cd /home/z/aigen
+cd /home/z/aigenx
 npm install
 npm login
 npm publish --access public
@@ -148,7 +148,7 @@ npm publish
 
 ### Verify Published
 ```bash
-npm view aigen
+npm view aigenx
 ```
 
 ---
@@ -171,18 +171,18 @@ SYSTEM_PROMPT=You are a helpful AI assistant.
 
 ## 🔍 Testing CLI Locally
 
-### From aigen directory
+### From aigenx directory
 ```bash
-cd /home/z/aigen
+cd /home/z/aigenx
 npm install
 node bin/index.js create test-app
 ```
 
 ### Using npm link
 ```bash
-cd /home/z/aigen
+cd /home/z/aigenx
 npm link
-aigen create test-app
+aigenx create test-app
 ```
 
 ---
@@ -235,15 +235,15 @@ aigen create test-app
 2. Always test API keys in `.env.example` first
 3. Deploy to Vercel for best performance
 4. Customize system prompt for specific use cases
-5. Use `npx aigen` to always get latest version
+5. Use `npx aigenx` to always get latest version
 
 ---
 
 ## 🆘 Help & Support
 
-- **GitHub:** https://github.com/ramykatour/aigen
+- **GitHub:** https://github.com/ramykatour/aigenx
 - **Email:** ramymouner@hotmail.com
-- **Issues:** https://github.com/ramykatour/aigen/issues
+- **Issues:** https://github.com/ramykatour/aigenx/issues
 
 ---
 
